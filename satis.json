@@ -1,0 +1,19 @@
+{
+  "name": "bestworlds/packages",
+  "homepage": "http://packages.example.org",
+  "repositories": [
+    {
+      "name": "bestworlds/abtest",
+      "type": "vcs",
+      "url": "git@bestworldsweb.git.beanstalkapp.com:/bestworldsweb/bww_splittest_m2.git"
+    },
+    {
+      "name": "bestworlds/abandonedcart",
+      "type": "vcs",
+      "url": "git@bestworldsweb.git.beanstalkapp.com:/bestworldsweb/abandonedcart_m2.git"
+    }
+  ],
+  "twig-template": "/views/index.html.twig",
+  "require-dependencies": true,
+  "require-all": true
+}
